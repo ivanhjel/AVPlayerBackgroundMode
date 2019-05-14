@@ -30,10 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        // Whenever the app is entering background
+        // we have to disconnect the AVPlayer to prevent it from pausing.
         VideoPlayer.sharedInstance.controller.player = nil
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
+        // We need to connect it again when app is entering foreground.
         VideoPlayer.sharedInstance.controller.player = VideoPlayer.sharedInstance.player
     }
 
