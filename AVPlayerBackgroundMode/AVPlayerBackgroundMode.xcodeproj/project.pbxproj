@@ -12,6 +12,8 @@
 		2C450A37228B6E3500209AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C450A35228B6E3500209AC8 /* Main.storyboard */; };
 		2C450A39228B6E3700209AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C450A38228B6E3700209AC8 /* Assets.xcassets */; };
 		2C450A3C228B6E3700209AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C450A3A228B6E3700209AC8 /* LaunchScreen.storyboard */; };
+		2C450A46228B752300209AC8 /* vertical_sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2C450A45228B752300209AC8 /* vertical_sample.mov */; };
+		2C450A48228B77D700209AC8 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C450A47228B77D700209AC8 /* VideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		2C450A38228B6E3700209AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C450A3B228B6E3700209AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C450A3D228B6E3700209AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C450A45228B752300209AC8 /* vertical_sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vertical_sample.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				2C450A38228B6E3700209AC8 /* Assets.xcassets */,
 				2C450A3A228B6E3700209AC8 /* LaunchScreen.storyboard */,
 				2C450A3D228B6E3700209AC8 /* Info.plist */,
+				2C450A45228B752300209AC8 /* vertical_sample.mov */,
 			);
 			path = AVPlayerBackgroundMode;
 			sourceTree = "<group>";
@@ -124,6 +128,7 @@
 			files = (
 				2C450A3C228B6E3700209AC8 /* LaunchScreen.storyboard in Resources */,
 				2C450A39228B6E3700209AC8 /* Assets.xcassets in Resources */,
+				2C450A46228B752300209AC8 /* vertical_sample.mov in Resources */,
 				2C450A37228B6E3500209AC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
