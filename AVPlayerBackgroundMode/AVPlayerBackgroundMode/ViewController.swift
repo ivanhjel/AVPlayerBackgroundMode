@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.addSubview(VideoPlayer.sharedInstance.controller.view)
+        self.view.insertSubview(VideoPlayer.sharedInstance.controller.view, at: 0)
+        //self.view.addSubview(VideoPlayer.sharedInstance.controller.view)
         self.addChild(VideoPlayer.sharedInstance.controller)
         VideoPlayer.sharedInstance.play()
 
